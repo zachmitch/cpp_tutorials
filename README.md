@@ -1,6 +1,6 @@
 /*****************************************************
 
-	    (BETTER NAME FORTHCOMING)
+	    Make Things with C++
 
 	A Project-based education resource for C++
 
@@ -9,7 +9,24 @@
 
 ******************************************************/
 
-The purpose of this collection is to educate people how to program using C++!   If you have any questions or comments, please email me at the address above.
+The purpose of this collection is to educate people how to program using C++! Though many resources exist, I've yet to find a solid project-based set of tutorials that challenge the user to MAKE THINGS.  The aim is to take a novice programmer from "Hello World!" to building a command-line video game over the space of about 20(ish) modules.  
+
+If you have any questions, comments, or would like to contribute, please email me at the address above.
+
+	- Zach
+
+
+Directory Structure:
+
+     Lessons:  Content covered in each module
+
+     Projects:  Code from examples
+
+     Web:  Components of the web interface
+
+
+/*********************************************************************************/
+
 
 Copyright 2018, Zachary Mitchell
 
