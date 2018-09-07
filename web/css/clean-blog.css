@@ -191,13 +191,14 @@ header.masthead .overlay {
   width: 100%;
   background-color: #212529;
   opacity: 0.5;
+
 }
 
 header.masthead .page-heading,
 header.masthead .post-heading,
 header.masthead .site-heading {
   padding: 200px 0 150px;
-  color: white;
+  color: black;
 }
 
 @media only screen and (min-width: 768px) {
@@ -217,6 +218,7 @@ header.masthead .page-heading h1,
 header.masthead .site-heading h1 {
   font-size: 50px;
   margin-top: 0;
+  font-family: 'Bungee Shade', cursive;
 }
 
 header.masthead .page-heading .subheading,
