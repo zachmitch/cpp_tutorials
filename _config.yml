@@ -1,0 +1,33 @@
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: Make Things with C++
+email: mitcheza@oregonstate.edu
+description: >- # this means to ignore newlines until "baseurl:"
+ Make Things with C++ is a project-based tutorial in
+ C++ that takes students from complete beginner to making
+ their very own command line video game.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://makethingswithcpp.com"
+twitter_username: zach1011
+github_username: zachmitch
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+
+include: ['_pages']
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/

@@ -1,0 +1,61 @@
+---
+layout: default
+---
+
+<!-- Title  -->
+<article>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        <h2 class = "post-title">
+          {{ page.title }}
+          <hr>
+        </h2>
+
+<!-- Lesson objectives  -->
+<div class="media">
+  <img class="align-self-center mr-3" src="../img/objectives2.png" alt="Generic placeholder image">
+  <div class="media-body">
+    <h5 class="mt-0">Lesson Objectives</h5>
+        {{ page.objectives }}
+      </ul>
+    </div>
+</div>
+<hr>
+
+<!-- Video 1 -->
+<div class="embed-responsive embed-responsive-16by9 ">
+  <iframe class="embed-responsive-item" src="{{ page.youtubeLink }}" frameborder="0" allow="encrypted-media" allowfullscreen></iframe>
+</div>
+
+<!-- Explanation text -->
+<h2 class="section-heading">Explanation</h2>
+<p> {{ content }}</p>
+
+<!-- Code Example -->
+<figure class="highlight">
+  <code class="language-cpp" data-lang="cpp">
+    <pre>
+
+#include &lt;iostream&gt;
+
+int main() {
+std::cout << "Hello World!" << std::endl;
+
+return 0;
+}
+    </pre>
+  </code>
+</figure>
+
+<!-- Closing statement  -->
+<p>There can be no thought of finishing for ‘aiming for the stars.’ Both figuratively and literally, it is a task to occupy the generations. And no matter how much progress one makes, there is always the thrill of just beginning.</p>
+
+
+<!-- Next Lesson Button  -->
+<hr>
+<a class="btn btn-primary btn-lg btn-block" href="{{ page.nextHTML }}" > >> Next Lesson >> </br> {{ page.nextLesson }} </a>
+</div>
+</div>
+</div>
+</article>
