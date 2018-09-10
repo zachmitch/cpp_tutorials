@@ -10,15 +10,17 @@ Asterisk (*) indicates code challenge
 	- Commenting
 	- Blocks
 	- Basic formatting
-	- std::cout, std::cin, std::endl
 	- Return values
 
-  * Make program that asks for someone's city and country, then outputs it to screen 
+
+	- std::cout, std::cin, std::endl
+
+  * Make program that asks for someone's city and country, then outputs it to screen
 
 2 - Find average >> Ask user for 3 numbers and averages them
 	- Variables - initialization and assignment
 	- Data types
-	- operators 
+	- operators
 
   - Make change >> Makes change in US currency for less than a dollar
 	- Modulus (operators continued)
@@ -43,7 +45,7 @@ Asterisk (*) indicates code challenge
 
   * Write a program that prints "odd" or "even" for all numbers 1-20
 
-4 - Fall Distance >> Distance traveled toward earth in time (seconds) 
+4 - Fall Distance >> Distance traveled toward earth in time (seconds)
 	- Functions
 	- Difference between parameters and arguments
 	- Forward declaration
