@@ -24,33 +24,28 @@ layout: default
 <hr>
 
 <!-- Video 1 -->
-<div class="embed-responsive embed-responsive-16by9 ">
+<h2 class="section-heading">Directions</h2>
+<div class="embed-responsive embed-responsive-16by9 vid">
   <iframe class="embed-responsive-item" src="{{ page.youtubeLink }}" frameborder="0" allow="encrypted-media" allowfullscreen></iframe>
 </div>
 
 <!-- Explanation text -->
-<h2 class="section-heading">Explanation</h2>
-<p> {{ content }}</p>
+ {{ content }}
 
 <!-- Code Example -->
+<h2 class="section-heading">Code</h2>
 <figure class="highlight">
   <code class="language-cpp" data-lang="cpp">
     <pre>
 
-#include &lt;iostream&gt;
+{{ page.codeSnippet }}
 
-int main() {
-std::cout << "Hello World!" << std::endl;
-
-return 0;
-}
     </pre>
   </code>
 </figure>
 
 <!-- Closing statement  -->
-<p>There can be no thought of finishing for ‘aiming for the stars.’ Both figuratively and literally, it is a task to occupy the generations. And no matter how much progress one makes, there is always the thrill of just beginning.</p>
-
+{{ page.closer }}
 
 <!-- Next Lesson Button  -->
 <hr>

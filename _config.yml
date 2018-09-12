@@ -17,8 +17,10 @@ github_username: zachmitch
 markdown: kramdown
 plugins:
   - jekyll-feed
+collections:
+  - lessons
 
-include: ['_pages']
+include: ['_lessons']
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
