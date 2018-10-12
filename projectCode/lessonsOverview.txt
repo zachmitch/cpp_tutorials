@@ -41,19 +41,27 @@ Asterisk (*) indicates code challenge
 	- Control flow - if, else if, else
 	- Increment/Decrement ++x vs x++
 
-  * Write a program that prints "odd" or "even" for all numbers 1-20
-
-4 - Fall Distance >> Distance traveled toward earth in time (seconds)
+4 - Menu >> User Menu
 	- Functions
 	- Difference between parameters and arguments
 	- Forward declaration
 
-  - Hail stone >> calculate hailstone number
-	- Global and local variables
+	-Meter2Feet
 	- passing a variable by value
 
   - Simple Sort >> Give a function three numbers, sort least to greatest
 	- Logical operators
 	- Passing a variable by reference
 
-  * Fizz buzz program
+5 - Find Min/Max >> Find Min/Max of array
+	- Arrays
+	- For-loop
+	- Random Numbers
+
+6 - Bank Account >> Simple banking program
+	- Programs with multiple files
+	- Header files
+	- Header guards
+	- Classes and Class members
+	- Constructors
+	- Public / Private specifiers
