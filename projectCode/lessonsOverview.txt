@@ -67,4 +67,16 @@ Breakdown of lessons and topics covered:
 	- Default Constructors
 	- Hidden this->
 	- Destructors
-	- Intro to Pointers 
+	- Intro to Pointers
+
+8 - Recursion >> Introduce the idea of recursion
+	- Discuss pros/cons of recursive algorithms
+	- Debugging
+
+9 - Store Inventory >> Inventory full of products
+	- Overloading operators
+	- Class inheritance
+
+10- Tic-Tac-Toe >> Board game
+	- Putting it all together
+	
