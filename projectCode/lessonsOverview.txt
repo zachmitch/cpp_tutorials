@@ -74,9 +74,8 @@ Breakdown of lessons and topics covered:
 	- Debugging
 
 9 - Store Inventory >> Inventory full of products
-	- Overloading operators
-	- Class inheritance
+	- Pointers
+	- Vectors
 
 10- Tic-Tac-Toe >> Board game
 	- Putting it all together
-	
