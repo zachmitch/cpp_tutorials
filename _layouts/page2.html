@@ -1,0 +1,43 @@
+---
+layout: default
+---
+
+<!-- Title  -->
+<article>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        <h2 class = "post-title">
+          {{ page.title }}
+          <hr>
+        </h2>
+
+<!-- Lesson objectives  -->
+<div class="media">
+  <img class="align-self-center mr-3" src="../img/objectives2.png" alt="Generic placeholder image">
+  <div class="media-body">
+    <h5 class="mt-0">Lesson Objectives</h5>
+        {{ page.objectives }}
+      </ul>
+    </div>
+</div>
+<hr>
+
+<!-- Video 1 -->
+<h2 class="section-heading">Directions</h2>
+<div class="embed-responsive embed-responsive-16by9 vid">
+  <iframe class="embed-responsive-item" src="{{ page.youtubeLink }}" frameborder="0" allow="encrypted-media" allowfullscreen></iframe>
+</div>
+
+<!-- Explanation text -->
+ {{ content }}
+
+
+
+<!-- Closing statement  -->
+{{ page.closer }}
+
+</div>
+</div>
+</div>
+</article>
