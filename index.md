@@ -15,9 +15,10 @@ layout: default
 
           <div class="post-preview">
             <a href=" {{ lesson.permalink }} "
-              onclick="dataLayer.push({
+              onmouseover="dataLayer.push({
                 'lessonNumber': '{{ lesson.url }}',
-                'lessonCategory': '{{ lesson.title }}'});">
+                'lessonCategory': '{{ lesson.title }}'
+                });">
               <h2 class="post-title">
                 {{ lesson.title }}
               </h2>
