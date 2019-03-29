@@ -14,7 +14,10 @@ layout: default
         {% for lesson in site.lessons %}
 
           <div class="post-preview">
-            <a href=" {{ lesson.permalink }} ">
+            <a href=" {{ lesson.permalink }} "
+              onclick="dataLayer.push({
+                'lessonNumber': '{{ lesson.url }}',
+                'lessonCategory': '{{ lesson.title }}'});">
               <h2 class="post-title">
                 {{ lesson.title }}
               </h2>
