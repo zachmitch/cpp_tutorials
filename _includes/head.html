@@ -30,6 +30,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <!-- Custom styles for this template -->
   <link href="../css/clean-blog.min.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Bungee+Shade" rel="stylesheet">
-
+  
+  <script>
+    var val = document.URL.match(/l[0-10]+)[1];
+    dataLayer.push({'lessonValue' : val });
+  </script>
   
 </head>
